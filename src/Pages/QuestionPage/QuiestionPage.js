@@ -71,7 +71,10 @@ const QuestionPage =() => {
                 case 'game':
                     if (data.currentTask!==currentTask)
                         setViewAnswer(false)
-                    setQuestion(data.question)
+                    const currentQuestion= {...data.question}
+                    console.log('!!!!!!!!!!!', currentQuestion)
+                    currentQuestion.img = currentQuestion.img.replace('https://quizserver.vityazgroup.ru:8500', config.URL_SERVER)
+                    setQuestion(currentQuestion)
                     setIsStart(data.isStart)
                     setQuiz(data.quiz)
                     setCurrentTask(data.currentTask)

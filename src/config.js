@@ -1,7 +1,7 @@
 
 const IP = '192.168.0.105'
 const config = {
-    // URL:'http://'+this.IP,
+    URL_SERVER:'http://'+IP+':8011',
     URL_API: 'http://'+IP+':8011/api/',
     //SERVER_SOCKET:'ws://192.168.2.101:3100',
     SERVER_SOCKET:'ws://'+IP+':3100',
