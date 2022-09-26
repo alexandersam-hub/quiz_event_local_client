@@ -1,0 +1,39 @@
+.input_count_team{
+
+    text-align: center;
+
+}
+.wrapper{
+    padding: 20px;
+    margin-top: 10px;
+}
+.team_box{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid #285CA6;
+}
+
+
+.btn_start{
+    margin:10px auto 0;
+    width: 150px;
+    color:white;
+    height: 30px;
+    line-height: 30px;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #285CA6;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.empty_room{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,45 @@
+.wrapper{
+    width: 70%;
+    border: 3px solid #285CA6;
+    border-radius: 20px;
+    margin: 40px auto;
+    padding: 10px;
+    font-family: Gilroy;
+    font-size: 16px;
+}
+.wrapper input{
+    display: block;
+    max-width: 300px;
+    width: 90%;
+    padding: 5px 10px;
+    border: 3px solid #285CA6;
+    border-radius: 20px;
+    margin: 20px auto;
+    font-size: 16px;
+}
+.wrapper div{
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+}
+.btn_add_team{
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    line-height: 30px;
+    background-color: white;
+    border: 2px solid silver;
+    cursor: pointer;
+}
+.btn_save{
+    display: block;
+    width: 130px;
+    border: 3px solid #285CA6;
+    text-align: center;
+    margin: 20px;
+    background-color: #285CA6 ;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}

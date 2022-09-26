@@ -1,0 +1,37 @@
+.app{
+   width: 100%;
+   height: auto; 
+   min-height: calc(100vh - 40px) ;
+   /* height: 700px; */
+   background-color:rgba(40, 92, 166, 0.1);
+    padding-bottom: 20px;
+
+}
+/*.backColor{*/
+/*   position: fixed; */
+/*  bottom: 0;*/
+/*  min-width: 100%;*/
+/*  height: 100%;*/
+/*  background: rgba(40, 92, 166, 0.1);*/
+/*  z-index:-100*/
+
+/*}*/
+.logoBack{
+  position: fixed;
+  top: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 70%;
+  /* width: 70%; */
+  padding: 3px 10px;
+  white-space: nowrap;
+  z-index:-101;
+}
+
+
+@media(max-width:800px){
+  .app{
+    min-height: calc(100vh - 45px) ;
+  }
+}
+

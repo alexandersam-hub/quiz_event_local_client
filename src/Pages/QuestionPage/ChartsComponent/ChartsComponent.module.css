@@ -1,0 +1,47 @@
+
+.title{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #285CA6;
+}
+
+.t_score{
+    margin: 10px;
+}
+
+.t_td_title{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #000000;
+
+}
+.t_td_value,
+.t_td_team_name{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #000000;
+
+}
+.t_td_team_name{
+    text-align: left;
+    width: 200px;
+}
+.t_td_value{
+    text-align: center;
+    width: 200px;
+}
